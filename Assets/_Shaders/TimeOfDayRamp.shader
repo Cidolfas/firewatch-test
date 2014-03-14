@@ -5,11 +5,11 @@
 		_TimeOfDay ("TOD", Range(0,1)) = 0.0
 	}
 	SubShader {
-		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
+		Tags { "RenderType"="Opaque" }
 		LOD 200
 		
 		CGPROGRAM
-		#pragma surface surf Ramp alpha
+		#pragma surface surf Ramp
 		#include "UnityCG.cginc"
 		
 		sampler2D _MainTex;
