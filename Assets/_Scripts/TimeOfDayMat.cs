@@ -4,17 +4,23 @@ using System.Collections;
 public class TimeOfDayMat : MonoBehaviour {
 
 	public const float CycleTime = 30f;
-
-	private Material _mat;
-
-	void Awake()
-	{
-		_mat = renderer.material;
-	}
+	public AnimationCurve tweakCurve;
+	public Material[] mats;
 
 	void Update()
 	{
-		_mat.SetFloat ("_TimeOfDay", (Time.time % CycleTime) / CycleTime);
+		float tod = (Time.time % CycleTime) / CycleTime;
+		tod = tweakCurve.Evaluate (tod);
+		for (int i = 0; i < mats.Length; i++) {
+			mats[i].SetFloat ("_TimeOfDay", tod);
+		}
+	}
+
+	void OnDisable()
+	{
+		for (int i = 0; i < mats.Length; i++) {
+			mats[i].SetFloat ("_TimeOfDay", 0f);
+		}
 	}
 
 }

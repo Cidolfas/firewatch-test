@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 265c12225d4b77c4ea7f510c05d690a1
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pine_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 112
+        height: 222
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: front_1l
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 238
+        height: 192
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: front_1r
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 108
+        height: 191
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: front_1c
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 6
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: pine_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 800
+        width: 97
+        height: 189
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: pine_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 800
+        width: 91
+        height: 178
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: stub_0
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 800
+        width: 29
+        height: 96
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: stub_1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 799
+        width: 26
+        height: 96
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: fir_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 576
+        width: 94
+        height: 195
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: fir_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 576
+        width: 95
+        height: 208
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: fir_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 576
+        width: 95
+        height: 166
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: skinny_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 576
+        width: 51
+        height: 169
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_1l
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 232
+        height: 106
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_1l2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 214
+        height: 68
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_1r
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 260
+        height: 112
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_2r
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 356
+        height: 96
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_2l2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 352
+        width: 90
+        height: 96
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_2l
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 101
+        height: 89
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_4chunk1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 928
+        width: 133
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_4chunk2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 775
+        width: 214
+        height: 51
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_4chunk3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 672
+        width: 316
+        height: 98
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_4chunk4
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 561
+        width: 371
+        height: 99
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_4chunk5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 458
+        width: 323
+        height: 86
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_3l
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 673
+        width: 279
+        height: 145
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_3r
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 832
+        width: 470
+        height: 172
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_5r
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 453
+        width: 265
+        height: 95
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_5l2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 352
+        width: 176
+        height: 69
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: layer_5l
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 346
+        width: 130
+        height: 73
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: Mountain1
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 16
+        width: 200
+        height: 318
+      alignment: 4
+      pivot: {x: 0, y: .5}
+    - name: Mountain0
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 16
+        width: 427
+        height: 199
+      alignment: 7
+      pivot: {x: .5, y: 0}
+  spritePackingTag: 
+  userData: 
